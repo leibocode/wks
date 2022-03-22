@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WKS_API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -28,6 +28,24 @@ namespace WKS_API.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetList()
+        {
+            var list =  await Task.Run(() =>
+            {
+                return new List<WeatherForecast>()
+                {
+                   new WeatherForecast
+                   { 
+                     Date = DateTime.Now,
+                     Summary = "Summary",
+                     TemperatureC = 1
+                   }
+                };
+            });
+            return Ok(list);
         }
     }
 }
