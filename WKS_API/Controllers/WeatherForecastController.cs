@@ -30,7 +30,7 @@ namespace WKS_API.Controllers
             .ToArray();
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<IActionResult> GetList()
         {
             var list =  await Task.Run(() =>
