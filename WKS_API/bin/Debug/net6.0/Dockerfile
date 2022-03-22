@@ -6,7 +6,7 @@ WORKDIR /WKS_API
 #拷贝当前文件夹下的文件到容器中系统的工作空间（注意：“.”后面有空格）
 COPY . ./ 
 #对外提供的端口号
-EXPOSE 7136 5136
+EXPOSE 5001 5002
 
 #设置时间为中国上海
 ENV TZ=Asia/Shanghai
