@@ -8,7 +8,6 @@ COPY . ./
 #对外提供的端口号
 EXPOSE 5001
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 
 #设置时间为中国上海
 ENV TZ=Asia/Shanghai

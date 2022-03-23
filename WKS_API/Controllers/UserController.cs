@@ -16,11 +16,18 @@ namespace WKS_API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+            _logger.LogInformation("执行");
             return Ok("test");
         }
 
         [HttpPost]
         public IActionResult Post()
+        {
+            return Ok("test");
+        }
+
+        [HttpPut]
+        public IActionResult Put()
         {
             return Ok("test");
         }
