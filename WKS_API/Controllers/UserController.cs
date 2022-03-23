@@ -18,5 +18,11 @@ namespace WKS_API.Controllers
         {
             return Ok("test");
         }
+
+        [HttpPost]
+        public IActionResult Post()
+        {
+            return Ok("test");
+        }
     }
 }
