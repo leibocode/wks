@@ -25,3 +25,4 @@ C:\Users\lb\Desktop\wks\WKS_API\WKS_API\obj\Release\net6.0\refint\WKS_API.dll
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\obj\Release\net6.0\WKS_API.pdb
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\obj\Release\net6.0\WKS_API.genruntimeconfig.cache
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\obj\Release\net6.0\ref\WKS_API.dll
+C:\Users\lb\Desktop\wks\WKS_API\WKS_API\bin\Release\net6.0\Dockerfile
