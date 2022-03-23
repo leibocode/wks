@@ -1,6 +1,5 @@
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\bin\Release\net6.0\appsettings.Development.json
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\bin\Release\net6.0\appsettings.json
-C:\Users\lb\Desktop\wks\WKS_API\WKS_API\bin\Release\net6.0\Dockerfile
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\bin\Release\net6.0\WKS_API.exe
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\bin\Release\net6.0\WKS_API.deps.json
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\bin\Release\net6.0\WKS_API.runtimeconfig.json

@@ -1,4 +1,3 @@
-C:\Users\lb\Desktop\wks\WKS_API\WKS_API\obj\Release\net6.0\PubTmp\Out\Dockerfile
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\obj\Release\net6.0\PubTmp\Out\WKS_API.exe
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 C:\Users\lb\Desktop\wks\WKS_API\WKS_API\obj\Release\net6.0\PubTmp\Out\appsettings.json
