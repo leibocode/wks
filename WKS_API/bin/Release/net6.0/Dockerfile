@@ -23,7 +23,7 @@ RUN apt-get update \
 && rm -rf /var/lib/apt/lists/ \
 && dpkg-reconfigure -f noninteractive tzdata
 
-ENV ASPNETCORE_URLS http://+:5001
+
  
 #容器中使用 ["dotnet","系统启动的dll"] 来运行应用程序
 ENTRYPOINT ["dotnet", "WKS_API.dll"]
