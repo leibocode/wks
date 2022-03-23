@@ -6,7 +6,7 @@ WORKDIR /WKS_API
 #拷贝当前文件夹下的文件到容器中系统的工作空间（注意：“.”后面有空格）
 COPY . ./ 
 #对外提供的端口号
-EXPOSE 5001 5002
+EXPOSE 5001
 
 #设置时间为中国上海
 ENV TZ=Asia/Shanghai
@@ -23,7 +23,7 @@ RUN apt-get update \
 && rm -rf /var/lib/apt/lists/ \
 && dpkg-reconfigure -f noninteractive tzdata
 
-ENV ASPNETCORE_URLS https://+:5001;http://+:5002
+ENV ASPNETCORE_URLS http://+:5001
  
 #容器中使用 ["dotnet","系统启动的dll"] 来运行应用程序
 ENTRYPOINT ["dotnet", "WKS_API.dll"]
