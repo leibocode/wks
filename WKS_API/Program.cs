@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseUrls("http://*:5001");
+builder.WebHost.UseUrls("https://*:5001;http://*:5002");
 
 // Add services to the container.
 
@@ -27,7 +27,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("any");
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
