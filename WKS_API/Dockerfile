@@ -7,8 +7,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["WKS_API/WKS_API.csproj", "WKS_API/"]
-RUN dotnet restore "WKS_API/WKS_API.csproj"
+COPY ["WKS_API.csproj", "WKS_API/"]
+RUN dotnet restore "WKS_API.csproj"
 COPY . .
 WORKDIR "/src/WKS_API"
 RUN dotnet build "WKS_API.csproj" -c Release -o /app/build
