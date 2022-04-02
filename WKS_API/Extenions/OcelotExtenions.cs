@@ -1,4 +1,5 @@
-﻿using Ocelot.Configuration.Repository;
+﻿using Microsoft.AspNetCore.Authentication;
+using Ocelot.Configuration.Repository;
 using Ocelot.DependencyInjection;
 using WKS_API.ConfigStored;
 
@@ -14,6 +15,12 @@ namespace WKS_API.Extenions
                 return new MySqlFileConfigurationRepository(options, apiGatewayKey);
             });
             return builder;
+        }
+
+        public static AuthenticationBuilder AddOcelotJwtBearer(this IServiceCollection services, string
+            issuer, string audience, string secret, string defaultScheme, bool isHttp = false)
+        { 
+
         }
     }
 }

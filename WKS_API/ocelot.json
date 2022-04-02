@@ -3,6 +3,7 @@
   "DynamicReRoutes": [],
   "Aggregates": [],
   "GlobalConfiguration": {
+    "BaseUrl": "",
 
   }
 }

@@ -9,7 +9,8 @@ namespace WKS_API.Extenions
         {
             var config = configuration.GetSection("Jwt");
             var keyByteArray = Encoding.ASCII.GetBytes(config["Secret"]);
-
+            
+            
         }
     }
 }

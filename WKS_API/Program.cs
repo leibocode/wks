@@ -11,7 +11,7 @@ builder.WebHost.ConfigureAppConfiguration((hostingContext, builder) =>
 {
     builder.SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
     .AddJsonFile("Ocelot.json");
-}).UseUrls("http://*:5001");
+}).UseUrls("http://*:2000");
 
 
 // Add services to the container.
@@ -32,11 +32,11 @@ builder.Services.AddCors(options => {
 });
 
 
-builder.Services.AddOcelot()
-                .AddPolly()
-                .AddConsul()
-                .AddCacheManager(x => { x.WithDictionaryHandle(); }) // 添加本地缓存
-                .AddCOnfigStoredInMysql(configuration["apigateway"]);
+//builder.Services.AddOcelot()
+//                .AddPolly()
+//                .AddConsul()
+//                .AddCacheManager(x => { x.WithDictionaryHandle(); }) // 添加本地缓存
+//                .AddCOnfigStoredInMysql(configuration["apigateway"]);
 
 var app = builder.Build();
 
