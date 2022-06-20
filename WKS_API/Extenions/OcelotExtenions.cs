@@ -17,10 +17,10 @@ namespace WKS_API.Extenions
             return builder;
         }
 
-        public static AuthenticationBuilder AddOcelotJwtBearer(this IServiceCollection services, string
-            issuer, string audience, string secret, string defaultScheme, bool isHttp = false)
-        { 
+        //public static AuthenticationBuilder AddOcelotJwtBearer(this IServiceCollection services, string
+        //    issuer, string audience, string secret, string defaultScheme, bool isHttp = false)
+        //{ 
 
-        }
+        //}
     }
 }

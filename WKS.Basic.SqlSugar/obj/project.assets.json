@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS.Basic.SqlSugar\\WKS.Basic.SqlSugar.csproj",
+      "projectUniqueName": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.SqlSugar\\WKS.Basic.SqlSugar.csproj",
       "projectName": "WKS.Basic.SqlSugar",
-      "projectPath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS.Basic.SqlSugar\\WKS.Basic.SqlSugar.csproj",
+      "projectPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.SqlSugar\\WKS.Basic.SqlSugar.csproj",
       "packagesPath": "C:\\Users\\lb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS.Basic.SqlSugar\\obj\\",
+      "outputPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.SqlSugar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TkI9Xa/kUztwu+krunU00a7KpDQbq9ywp3u1/aZ76TKWHQT/a031Ez2+CNyD31HKZuia4vhhIiYWF4ySC0lvDA==",
+  "dgSpecHash": "96kOA0osKrWHncxgD3G9cZRi2eq5pmwVshd0qmbkMOVfMURrJVjnjtJMouCWg44uSG+d4aoDezaZkHVWRMsYWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS_UserPermission\\WKS_UserPermission.csproj",
+  "projectFilePath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_UserPermission\\WKS_UserPermission.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\lb\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

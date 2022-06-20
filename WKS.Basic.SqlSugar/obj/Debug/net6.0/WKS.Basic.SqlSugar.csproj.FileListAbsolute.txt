@@ -1,0 +1,12 @@
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\bin\Debug\net6.0\WKS.Basic.SqlSugar.deps.json
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\bin\Debug\net6.0\WKS.Basic.SqlSugar.dll
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\bin\Debug\net6.0\WKS.Basic.SqlSugar.pdb
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\WKS.Basic.SqlSugar.csproj.AssemblyReference.cache
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\WKS.Basic.SqlSugar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\WKS.Basic.SqlSugar.AssemblyInfoInputs.cache
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\WKS.Basic.SqlSugar.AssemblyInfo.cs
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\WKS.Basic.SqlSugar.csproj.CoreCompileInputs.cache
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\WKS.Basic.SqlSugar.dll
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\refint\WKS.Basic.SqlSugar.dll
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\WKS.Basic.SqlSugar.pdb
+C:\Users\lb\Desktop\git\wks\WKS.Basic.SqlSugar\obj\Debug\net6.0\ref\WKS.Basic.SqlSugar.dll

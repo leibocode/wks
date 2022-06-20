@@ -9,8 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.WebHost.ConfigureAppConfiguration((hostingContext, builder) =>
 {
-    builder.SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
-    .AddJsonFile("Ocelot.json");
+    //builder.SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
+    //.AddJsonFile("Ocelot.json");
 }).UseUrls("http://*:2000");
 
 
@@ -24,6 +24,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddCors(options => {
     options.AddPolicy("any", build =>
     {
@@ -65,7 +66,7 @@ var ocelotConfig = new OcelotPipelineConfiguration()
         }
     },
 };
-app.UseOcelot(ocelotConfig).Wait();
+//app.UseOcelot(ocelotConfig).Wait();
 #endregion
 
 //app.UseHttpsRedirection();

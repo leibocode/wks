@@ -300,11 +300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS_UserPermission\\WKS_UserPermission.csproj",
+      "projectUniqueName": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_UserPermission\\WKS_UserPermission.csproj",
       "projectName": "WKS_UserPermission",
-      "projectPath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS_UserPermission\\WKS_UserPermission.csproj",
+      "projectPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_UserPermission\\WKS_UserPermission.csproj",
       "packagesPath": "C:\\Users\\lb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS_UserPermission\\obj\\",
+      "outputPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_UserPermission\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -360,7 +360,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

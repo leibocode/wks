@@ -8,6 +8,7 @@ COPY . ./
 #对外提供的端口号
 EXPOSE 5001
 
+
 #设置时间为中国上海
 ENV TZ=Asia/Shanghai
 ENV DEBIAN_FRONTEND noninteractive

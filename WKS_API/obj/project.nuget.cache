@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F5xbUE8ERIPULm1ES7itFPaxtgk1bUltbwMKWknm04c270UQ8BMiTrKYf175qEvEf+lqGufHhlsuwqOf8NsrXw==",
+  "dgSpecHash": "KL7u/oWncVEBPa5wLD2Uxs0ex2xhgobCt/nj5pdmW97XU840eyN880ILIKgI63SQBE6/yR4ExkWRBLt6WQAozQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS_API\\WKS_API.csproj",
+  "projectFilePath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\WKS_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lb\\.nuget\\packages\\cachemanager.core\\2.0.0-beta-1629\\cachemanager.core.2.0.0-beta-1629.nupkg.sha512",
     "C:\\Users\\lb\\.nuget\\packages\\cachemanager.microsoft.extensions.configuration\\2.0.0-beta-1629\\cachemanager.microsoft.extensions.configuration.2.0.0-beta-1629.nupkg.sha512",

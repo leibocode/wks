@@ -1,0 +1,12 @@
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\bin\Debug\net6.0\WKS.Basic.Redis.deps.json
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\bin\Debug\net6.0\WKS.Basic.Redis.dll
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\bin\Debug\net6.0\WKS.Basic.Redis.pdb
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.csproj.AssemblyReference.cache
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.AssemblyInfoInputs.cache
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.AssemblyInfo.cs
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.csproj.CoreCompileInputs.cache
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.dll
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\refint\WKS.Basic.Redis.dll
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.pdb
+C:\Users\lb\Desktop\git\wks\WKS.Basic.Redis\obj\Debug\net6.0\ref\WKS.Basic.Redis.dll

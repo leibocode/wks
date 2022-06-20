@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
+      "projectUniqueName": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
       "projectName": "WKS.Basic.Redis",
-      "projectPath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
+      "projectPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
       "packagesPath": "C:\\Users\\lb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS.Basic.Redis\\obj\\",
+      "outputPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.Redis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

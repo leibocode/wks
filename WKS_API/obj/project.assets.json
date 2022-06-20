@@ -1549,11 +1549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS_API\\WKS_API.csproj",
+      "projectUniqueName": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\WKS_API.csproj",
       "projectName": "WKS_API",
-      "projectPath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS_API\\WKS_API.csproj",
+      "projectPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\WKS_API.csproj",
       "packagesPath": "C:\\Users\\lb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lb\\Desktop\\wks\\WKS_API\\WKS_API\\obj\\",
+      "outputPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1625,7 +1625,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
