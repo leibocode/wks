@@ -1,79 +1,26 @@
-using Ocelot.DependencyInjection;
-using Ocelot.Provider.Consul;
-using Ocelot.Provider.Polly;
-using WKS_API.Extenions;
-using Ocelot.Cache.CacheManager;
-using Ocelot.Middleware;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-var builder = WebApplication.CreateBuilder(args);
-
-builder.WebHost.ConfigureAppConfiguration((hostingContext, builder) =>
+namespace WKS_API
 {
-    //builder.SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
-    //.AddJsonFile("Ocelot.json");
-}).UseUrls("http://*:2000");
-
-
-// Add services to the container.
-
-IConfiguration configuration = new ConfigurationBuilder()
-                                  .AddJsonFile("appsettings.json")
-                                  .Build();
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddCors(options => {
-    options.AddPolicy("any", build =>
+    public class Program
     {
-        build.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
-    });
-});
-
-
-//builder.Services.AddOcelot()
-//                .AddPolly()
-//                .AddConsul()
-//                .AddCacheManager(x => { x.WithDictionaryHandle(); }) // 添加本地缓存
-//                .AddCOnfigStoredInMysql(configuration["apigateway"]);
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-
-app.UseSwagger();
-app.UseSwaggerUI(c => {
-
-});
-
-app.UseCors("any");
-
-#region 网关扩展中间件配置&&添加网关
-var ocelotConfig = new OcelotPipelineConfiguration()
-{
-    // 扩展为健康检查地址
-    PreErrorResponderMiddleware = async (ctx, next) =>
-    {
-        if (ctx.Request.Path.Equals(new PathString("/")))
+        public static void Main(string[] args)
         {
-            await ctx.Response.WriteAsync("ok");
+            CreateHostBuilder(args).Build().Run();
         }
-        else
-        {
-            await next.Invoke();
-        }
-    },
-};
-//app.UseOcelot(ocelotConfig).Wait();
-#endregion
 
-//app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
-
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\WKS_API.csproj": {}
+    "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_Basic_Consul\\WKS_Basic_Consul.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\WKS_API.csproj": {
+    "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_Basic_Consul\\WKS_Basic_Consul.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\WKS_API.csproj",
-        "projectName": "WKS_API",
-        "projectPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\WKS_API.csproj",
+        "projectUniqueName": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_Basic_Consul\\WKS_Basic_Consul.csproj",
+        "projectName": "WKS_Basic_Consul",
+        "projectPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_Basic_Consul\\WKS_Basic_Consul.csproj",
         "packagesPath": "C:\\Users\\lb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_API\\obj\\",
+        "outputPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS_Basic_Consul\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,21 +40,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Consul": {
               "target": "Package",
-              "version": "[1.15.1, )"
+              "version": "[1.6.10.6, )"
             },
-            "Ocelot": {
+            "DnsClient": {
               "target": "Package",
-              "version": "[16.0.0, )"
+              "version": "[1.6.1, )"
             },
-            "Ocelot.Provider.Consul": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[16.0.0, )"
-            },
-            "Ocelot.Provider.Polly": {
-              "target": "Package",
-              "version": "[16.0.0, )"
+              "version": "[3.1.26, )"
             }
           },
           "imports": [
@@ -68,9 +64,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
