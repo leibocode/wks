@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>8ced6a2b-5de4-4309-862a-e1e1f1a9c6c2</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LB.AspNetCore" Version="1.0.0.7" />
+    <PackageReference Include="LB.AutoMapper" Version="1.0.0.5" />
+    <PackageReference Include="LB.SqlSugarCore" Version="1.0.9" />
+    <PackageReference Include="LB.Swagger" Version="1.0.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+  </ItemGroup>
+
+
+</Project>
