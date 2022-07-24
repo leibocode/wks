@@ -1,0 +1,10 @@
+E:\学习\wks\WKS_Basic_Consul\bin\Debug\netcoreapp3.1\WKS_Basic_Consul.deps.json
+E:\学习\wks\WKS_Basic_Consul\bin\Debug\netcoreapp3.1\WKS_Basic_Consul.dll
+E:\学习\wks\WKS_Basic_Consul\bin\Debug\netcoreapp3.1\WKS_Basic_Consul.pdb
+E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.csproj.AssemblyReference.cache
+E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.GeneratedMSBuildEditorConfig.editorconfig
+E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.AssemblyInfoInputs.cache
+E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.AssemblyInfo.cs
+E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.csproj.CoreCompileInputs.cache
+E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.dll
+E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.pdb

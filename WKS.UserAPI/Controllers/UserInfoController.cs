@@ -13,7 +13,6 @@ namespace WKS.UserAPI.Controllers
     /// <summary>
     /// 1. 拿用户信息，2.维护就诊人
     /// </summary>
-
     [ApiController]
     [Route("api/user")]
     public class UserInfoController : ControllerBase
@@ -43,7 +42,7 @@ namespace WKS.UserAPI.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost]
-        public async Task<ApiResult> CreateUser()
+        public ApiResult CreateUser()
         {
             return ApiResult.Ok();
         }

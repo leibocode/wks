@@ -20,7 +20,7 @@ namespace WKS.UserAPI
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls("http://*:9000");
+                    webBuilder.UseUrls("http://*:8999");
                     webBuilder.UseStartup<Startup>();
                    
                 });

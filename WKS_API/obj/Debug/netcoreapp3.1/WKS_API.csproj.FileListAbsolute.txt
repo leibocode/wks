@@ -1,0 +1,7 @@
+E:\学习\wks\WKS_API\obj\Debug\netcoreapp3.1\WKS_API.csproj.AssemblyReference.cache
+E:\学习\wks\WKS_API\obj\Debug\netcoreapp3.1\WKS_API.GeneratedMSBuildEditorConfig.editorconfig
+E:\学习\wks\WKS_API\obj\Debug\netcoreapp3.1\WKS_API.AssemblyInfoInputs.cache
+E:\学习\wks\WKS_API\obj\Debug\netcoreapp3.1\WKS_API.AssemblyInfo.cs
+E:\学习\wks\WKS_API\obj\Debug\netcoreapp3.1\WKS_API.csproj.CoreCompileInputs.cache
+E:\学习\wks\WKS_API\obj\Debug\netcoreapp3.1\WKS_API.MvcApplicationPartsAssemblyInfo.cs
+E:\学习\wks\WKS_API\obj\Debug\netcoreapp3.1\WKS_API.MvcApplicationPartsAssemblyInfo.cache
