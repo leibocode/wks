@@ -46,5 +46,15 @@ namespace WKS.UserAPI.Controllers
         {
             return ApiResult.Ok();
         }
+
+        /// <summary>
+        /// 修改
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut]
+        public async Task<ApiResult> SaveUser()
+        {
+            return ApiResult.Ok();
+        }
     }
 }
