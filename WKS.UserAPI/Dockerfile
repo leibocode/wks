@@ -1,22 +1,27 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic AS base
+#容器中系统工作空间
+WORKDIR /DDI_Monitor_API
+#拷贝当前文件夹下的文件到容器中系统的工作空间（注意：“.”后面有空格）
+COPY . ./ 
+#对外提供的端口号
+EXPOSE 80 443
 
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
-WORKDIR /src
-COPY ["WKS.UserAPI/WKS.UserAPI.csproj", "WKS.UserAPI/"]
-RUN dotnet restore "WKS.UserAPI/WKS.UserAPI.csproj"
-COPY . .
-WORKDIR "/src/WKS.UserAPI"
-RUN dotnet build "WKS.UserAPI.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "WKS.UserAPI.csproj" -c Release -o /app/publish
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
+#设置时间为中国上海
+ENV TZ=Asia/Shanghai
+ENV DEBIAN_FRONTEND noninteractive
+ 
+# 设置包源为阿里
+RUN  sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g  /etc/apt/sources.list \
+&& apt-get clean
+ 
+# 安装 tzdata 软件包
+RUN apt-get update \
+&& apt-get install -y tzdata \
+&& ln -fs /usr/share/zoneinfo/$TZ  /etc/localtime \
+&& rm -rf /var/lib/apt/lists/ \
+&& dpkg-reconfigure -f noninteractive tzdata
+ 
+#容器中使用 ["dotnet","系统启动的dll"] 来运行应用程序
 ENTRYPOINT ["dotnet", "WKS.UserAPI.dll"]
