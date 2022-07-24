@@ -27,11 +27,25 @@ namespace WKS.UserAPI.Controllers
             _userInfoService = userInfoService;
         }
 
+        /// <summary>
+        /// 获取列表
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ApiResult> GetList()
         {
             var result = await _userInfoService.GetUserByPhone("test");
             return ApiResult.Ok(result);
+        }
+
+        /// <summary>
+        /// 添加
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiResult> CreateUser()
+        {
+            return ApiResult.Ok();
         }
     }
 }

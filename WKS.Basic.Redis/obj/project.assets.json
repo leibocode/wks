@@ -8,20 +8,21 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lb\\.nuget\\packages\\": {}
+    "D:\\Program Files (x86)\\Nuget\\.nuget": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
+      "projectUniqueName": "E:\\学习\\wks\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
       "projectName": "WKS.Basic.Redis",
-      "projectPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
-      "packagesPath": "C:\\Users\\lb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lb\\Desktop\\git\\wks\\WKS.Basic.Redis\\obj\\",
+      "projectPath": "E:\\学习\\wks\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
+      "packagesPath": "D:\\Program Files (x86)\\Nuget\\.nuget",
+      "outputPath": "E:\\学习\\wks\\WKS.Basic.Redis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
