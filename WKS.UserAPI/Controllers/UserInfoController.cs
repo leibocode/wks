@@ -56,5 +56,15 @@ namespace WKS.UserAPI.Controllers
         {
             return ApiResult.Ok();
         }
+
+        /// <summary>
+        /// 删除
+        /// </summary>
+        /// <returns></returns>
+        [HttpDelete]
+        public async Task<ApiResult> DelUser()
+        {
+            return ApiResult.Ok(DateTime.Now);
+        }
     }
 }
