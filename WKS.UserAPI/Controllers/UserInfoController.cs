@@ -67,11 +67,12 @@ namespace WKS.UserAPI.Controllers
             return ApiResult.Ok(DateTime.Now);
         }
 
-        
-        [HttpGet("test")]
-        public async Task<ApiResult> Test()
+
+        [HttpGet("{id}")]
+        public async Task<ApiResult> Test(int id)
         {
-            return ApiResult.Ok(DateTime.Now);
+            return ApiResult.Ok($"date:{DateTime.Now}id:{id}");
         }
+        
     }
 }
