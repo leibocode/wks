@@ -66,5 +66,12 @@ namespace WKS.UserAPI.Controllers
         {
             return ApiResult.Ok(DateTime.Now);
         }
+
+        
+        [HttpGet("test")]
+        public async Task<ApiResult> Test()
+        {
+            return ApiResult.Ok(DateTime.Now);
+        }
     }
 }
