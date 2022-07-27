@@ -24,4 +24,4 @@ RUN apt-get update \
 && dpkg-reconfigure -f noninteractive tzdata
  
 #容器中使用 ["dotnet","系统启动的dll"] 来运行应用程序
-ENTRYPOINT ["dotnet", "WKS.UserAPI.dll"]
+ENTRYPOINT ["dotnet", "WKS.DepartmentAPI"]
