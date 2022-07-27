@@ -11,7 +11,8 @@ namespace WKS.DepartmentAPI.Controllers
     [Route("api/deparment")]
     public class DeparmentController:BaseController
     {
-        
+
+        [HttpGet]
         public async Task<ApiResult> GetList()
         {
             return ApiResult.Ok();
