@@ -40,6 +40,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "LB.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "LB.AutoMapper": {
+              "target": "Package",
+              "version": "[1.0.0.5, )"
+            },
+            "LB.SqlSugarCore": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
+            "LB.Swagger": {
+              "target": "Package",
+              "version": "[1.0.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

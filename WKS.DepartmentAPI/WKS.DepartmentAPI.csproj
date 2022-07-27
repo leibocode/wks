@@ -4,5 +4,24 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\.dockerignore" Link=".dockerignore">
+      <DependentUpon>$(DockerDefaultDockerfile)</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LB.AspNetCore" Version="1.0.0.7" />
+    <PackageReference Include="LB.AutoMapper" Version="1.0.0.5" />
+    <PackageReference Include="LB.SqlSugarCore" Version="1.0.9" />
+    <PackageReference Include="LB.Swagger" Version="1.0.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 
 </Project>
