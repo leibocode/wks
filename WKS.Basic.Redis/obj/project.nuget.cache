@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+KQPlvd0FfJ0j2JHEGah0AZ0kIDThLscXa3+/TaiT9yvPXvp4M7xrs76CZFHozJbeoyy6WyZYGENzBjsQINfTQ==",
+  "dgSpecHash": "OvE0zOlHg6oULY8uR4rF8Wuf9uMFJsVNV1pfEgznhKXFS5+0hfIGtsrG59gX+tOPLAQ7ZhhqPQqSfYcIDwqd9g==",
   "success": true,
-  "projectFilePath": "E:\\学习\\wks\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
+  "projectFilePath": "E:\\demos\\wks\\WKS.Basic.Redis\\WKS.Basic.Redis.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
