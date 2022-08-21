@@ -72,8 +72,9 @@ namespace WKS.UserAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ApiResult> Test(int id)
         {
-            _logger.LogInformation($"入参:{id}");
             
+            _logger.LogInformation($"入参:{id}");
+
             _logger.LogInformation($"date:{DateTime.Now}id:{id}");
 
             _logger.LogInformation("test");
