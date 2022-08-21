@@ -74,6 +74,7 @@ namespace WKS.UserAPI.Controllers
         {
             _logger.LogInformation($"入参:{id}");
             _logger.LogInformation($"date:{DateTime.Now}id:{id}");
+            _logger.LogInformation('test')
             return ApiResult.Ok($"date:{DateTime.Now}id:{id}");
         }
         
