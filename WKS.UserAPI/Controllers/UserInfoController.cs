@@ -78,5 +78,11 @@ namespace WKS.UserAPI.Controllers
             return ApiResult.Ok($"date:{DateTime.Now}id:{id}");
         }
         
+        [HttpPost("{id}")]
+        public async Task<ApiResult> TestApi(int id) 
+        {
+            return ApiResult.Ok($"date:{DateTime.Now}id:{id}");    
+        }
+        
     }
 }

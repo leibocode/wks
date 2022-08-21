@@ -1,0 +1,38 @@
+{
+  "Routes": [
+    {
+      "ServiceName": "UserAPI",
+      "UseServiceDiscovery": true,
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/User_API/swagger.json",
+      "UpstreamPathTemplate": "/User_API/swagger.json",
+      "UpstreamHttpMethod": ["GET","POST","PUT","DELETE"]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:2000",
+    "ServiceDiscoveryProvider": {
+      "Host": "127.0.0.1",
+      "Port": 8500,
+      "Type": "Consul"
+    },
+    "RateLimitOptions": {
+      "DisableRateLimitHeaders": false,
+      "QuotaExceededMessage": "API calls quota exceeded!",
+      "HttpStatusCode": 999,
+      "EnableRateLimiting": true,
+      "Period": "1s",
+      "PeriodTimespan": 5,
+      "Limit": 50
+    },
+    "QoSOptions": {
+      "ExceptionsAllowedBeforeBreaking": 5,
+      "DurationOfBreak": 5,
+      "TimeoutValue": 5000
+    },
+    "ReRoutesCaseSensitive": false
+  }
+}

@@ -1,22 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\学习\\wks\\WKS.DepartmentAPI\\WKS.DepartmentAPI.csproj": {}
+    "E:\\demos\\wks\\WKS.DepartmentAPI\\WKS.DepartmentAPI.csproj": {}
   },
   "projects": {
-    "E:\\学习\\wks\\WKS.DepartmentAPI\\WKS.DepartmentAPI.csproj": {
+    "E:\\demos\\wks\\WKS.DepartmentAPI\\WKS.DepartmentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\学习\\wks\\WKS.DepartmentAPI\\WKS.DepartmentAPI.csproj",
+        "projectUniqueName": "E:\\demos\\wks\\WKS.DepartmentAPI\\WKS.DepartmentAPI.csproj",
         "projectName": "WKS.DepartmentAPI",
-        "projectPath": "E:\\学习\\wks\\WKS.DepartmentAPI\\WKS.DepartmentAPI.csproj",
-        "packagesPath": "D:\\Program Files (x86)\\Nuget\\.nuget",
-        "outputPath": "E:\\学习\\wks\\WKS.DepartmentAPI\\obj\\",
+        "projectPath": "E:\\demos\\wks\\WKS.DepartmentAPI\\WKS.DepartmentAPI.csproj",
+        "packagesPath": "C:\\Users\\李院\\.nuget\\packages\\",
+        "outputPath": "E:\\demos\\wks\\WKS.DepartmentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+          "C:\\Users\\李院\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -76,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

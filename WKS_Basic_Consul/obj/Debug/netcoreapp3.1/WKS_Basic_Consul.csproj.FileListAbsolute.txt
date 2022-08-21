@@ -8,3 +8,13 @@ E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.Assembly
 E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.csproj.CoreCompileInputs.cache
 E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.dll
 E:\学习\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.pdb
+E:\demos\wks\WKS_Basic_Consul\bin\Debug\netcoreapp3.1\WKS_Basic_Consul.deps.json
+E:\demos\wks\WKS_Basic_Consul\bin\Debug\netcoreapp3.1\WKS_Basic_Consul.dll
+E:\demos\wks\WKS_Basic_Consul\bin\Debug\netcoreapp3.1\WKS_Basic_Consul.pdb
+E:\demos\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.csproj.AssemblyReference.cache
+E:\demos\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.GeneratedMSBuildEditorConfig.editorconfig
+E:\demos\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.AssemblyInfoInputs.cache
+E:\demos\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.AssemblyInfo.cs
+E:\demos\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.csproj.CoreCompileInputs.cache
+E:\demos\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.dll
+E:\demos\wks\WKS_Basic_Consul\obj\Debug\netcoreapp3.1\WKS_Basic_Consul.pdb

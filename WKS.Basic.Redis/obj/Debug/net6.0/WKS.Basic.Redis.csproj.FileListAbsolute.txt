@@ -22,3 +22,15 @@ E:\学习\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.dll
 E:\学习\wks\WKS.Basic.Redis\obj\Debug\net6.0\refint\WKS.Basic.Redis.dll
 E:\学习\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.pdb
 E:\学习\wks\WKS.Basic.Redis\obj\Debug\net6.0\ref\WKS.Basic.Redis.dll
+E:\demos\wks\WKS.Basic.Redis\bin\Debug\net6.0\WKS.Basic.Redis.deps.json
+E:\demos\wks\WKS.Basic.Redis\bin\Debug\net6.0\WKS.Basic.Redis.dll
+E:\demos\wks\WKS.Basic.Redis\bin\Debug\net6.0\WKS.Basic.Redis.pdb
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.csproj.AssemblyReference.cache
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.GeneratedMSBuildEditorConfig.editorconfig
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.AssemblyInfoInputs.cache
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.AssemblyInfo.cs
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.csproj.CoreCompileInputs.cache
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.dll
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\refint\WKS.Basic.Redis.dll
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\WKS.Basic.Redis.pdb
+E:\demos\wks\WKS.Basic.Redis\obj\Debug\net6.0\ref\WKS.Basic.Redis.dll
