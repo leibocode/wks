@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic AS base
 #容器中系统工作空间
-WORKDIR /DDI_Monitor_API
+WORKDIR /DepartmentAPI
 #拷贝当前文件夹下的文件到容器中系统的工作空间（注意：“.”后面有空格）
 COPY . ./ 
 #对外提供的端口号
@@ -24,4 +24,4 @@ RUN apt-get update \
 && dpkg-reconfigure -f noninteractive tzdata
  
 #容器中使用 ["dotnet","系统启动的dll"] 来运行应用程序
-ENTRYPOINT ["dotnet", "WKS.UserAPI.dll"]
+ENTRYPOINT ["dotnet", "WKS.DepartmentAPI"]

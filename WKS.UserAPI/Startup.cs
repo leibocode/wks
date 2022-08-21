@@ -18,6 +18,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using static MS.Cloud.AspNetCore.Converters.SystemTextJsonConverter;
+using LB.Validation.Extensions;
+
 
 namespace WKS.UserAPI
 {
@@ -34,7 +36,11 @@ namespace WKS.UserAPI
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers().AddJsonOptions(options =>
+            services.AddControllers(options =>
+            {
+                //options.Filters.Add<>
+            })
+            .AddJsonOptions(options =>
             {
                 options.JsonSerializerOptions.Converters.Add(new MS.Cloud.AspNetCore.Converters.SystemTextJsonConverter.DateTimeConverter());
                 options.JsonSerializerOptions.Converters.Add(new DateTimeNullableConverter());
@@ -45,17 +51,11 @@ namespace WKS.UserAPI
             {
                 builder.AddAspNetCore();
                 builder.RegisterAllType();
-                SugarFactoryOptions sugarOptions = builder.Configuration.GetSection("SqlSugar").Get<SugarFactoryOptions>();
-                builder.Services.AddSqlSugar((Action<SugarFactoryOptions>)(options =>
-                {
-                    options.Configs = sugarOptions.Configs;
-                    options.DefaultConfigId = sugarOptions.DefaultConfigId;
-                    options.IsMultiple = sugarOptions.IsMultiple;
-                    options.IsSqlAop = sugarOptions.IsSqlAop;
-                }));
+                builder.AddSqlSugar();
                 builder.AddSwagger();
                 builder.AddAutoMapper();
                 builder.AddCors("any");
+                builder.AddFluentValidation("Application");
             });
             #endregion
         }
@@ -85,6 +85,7 @@ namespace WKS.UserAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHealthChecks("/check");
             });
         }
     }

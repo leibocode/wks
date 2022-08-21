@@ -104,6 +104,44 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
+      "FluentValidation/11.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.AspNetCore/11.1.2": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.1.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.1.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Google.Protobuf/3.6.1": {
         "type": "package",
         "dependencies": {
@@ -228,6 +266,20 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "LB.Validation/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "11.1.2",
+          "LB.Mis.Core": "1.0.0.5",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/LB.Validation.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/LB.Validation.dll": {}
+        }
       },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "type": "package",
@@ -408,7 +460,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Core/2.2.0": {
+      "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
@@ -3102,6 +3154,63 @@
         "lib/xamarinios/BouncyCastle.Crypto.xml"
       ]
     },
+    "FluentValidation/11.1.0": {
+      "sha512": "Ld7w+2jOmnhQqFkngEGuEWTRa5j6u4Xzli7jKxRtbA5PtuHHcpin01qxvxYL0LomeJuzRMGAOURu2rKONdjKQA==",
+      "type": "package",
+      "path": "fluentvalidation/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.1.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/11.1.2": {
+      "sha512": "Lw/8btATvMYW9QYR75CAw1Wp0AJhr9f7cxs1IyklQo6emvy+JaM27BCUe2MZKDOQTLpP4fmVVppPQHHc7HOEjQ==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/11.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.11.1.2.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/net6.0/FluentValidation.AspNetCore.dll",
+        "lib/net6.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.1.0": {
+      "sha512": "M9U2hLZc8bx0JthQKsN9SVgQSHJeLMcSV/uCmJ23U+/7HCSeOYD4OXoF+p5U3bLGz6Yp7h0/0XbSL+Qv2S38EQ==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.1.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
     "Google.Protobuf/3.6.1": {
       "sha512": "741fGeDQjixBJaU2j+0CbrmZXsNJkTn/hWbOh4fLVXndHsCclJmWznCPWrJmPoZKvajBvAz3e8ECJOUvRtwjNQ==",
       "type": "package",
@@ -3237,6 +3346,18 @@
         "lb.swagger.nuspec",
         "lib/netcoreapp3.1/MS.Cloud.Swagger.dll",
         "nuget.exe"
+      ]
+    },
+    "LB.Validation/1.0.0": {
+      "sha512": "vsLHZ5MgKFsljdlBFHsjE3DBvLHMhYbEjZFM3ZXTRl4CDXgdjC4nNB3Lc8eDIYHgzyWIC4Hn/8al0irg8xpdqg==",
+      "type": "package",
+      "path": "lb.validation/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lb.validation.1.0.0.nupkg.sha512",
+        "lb.validation.nuspec",
+        "lib/netcoreapp3.1/LB.Validation.dll"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
@@ -3408,16 +3529,16 @@
         "microsoft.aspnetcore.mvc.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Core/2.2.0": {
-      "sha512": "ALiY4a6BYsghw8PT5+VU593Kqp911U3w9f/dH9/ZoI3ezDsDAGiObqPu/HP1oXK80Ceu0XdQ3F0bx5AXBeuN/Q==",
+    "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
+      "sha512": "/8sr8ixIUD57UFwUntha9bOwex7/AkZfdk1f9oNJG1Ek7p/uuKVa7fuHmYZpQOf35Oxrt+2Ku4WPwMSbNxOuWg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.core/2.2.0",
+      "path": "microsoft.aspnetcore.mvc.core/2.2.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.xml",
-        "microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
         "microsoft.aspnetcore.mvc.core.nuspec"
       ]
     },
@@ -8995,6 +9116,7 @@
       "LB.AutoMapper >= 1.0.0.5",
       "LB.SqlSugarCore >= 1.0.9",
       "LB.Swagger >= 1.0.0.3",
+      "LB.Validation >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.15.1"
     ]
   },
@@ -9053,6 +9175,10 @@
           "LB.Swagger": {
             "target": "Package",
             "version": "[1.0.0.3, )"
+          },
+          "LB.Validation": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",

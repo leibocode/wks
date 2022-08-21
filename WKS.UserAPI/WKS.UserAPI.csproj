@@ -11,6 +11,7 @@
     <PackageReference Include="LB.AutoMapper" Version="1.0.0.5" />
     <PackageReference Include="LB.SqlSugarCore" Version="1.0.9" />
     <PackageReference Include="LB.Swagger" Version="1.0.0.3" />
+    <PackageReference Include="LB.Validation" Version="1.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
   </ItemGroup>
 
